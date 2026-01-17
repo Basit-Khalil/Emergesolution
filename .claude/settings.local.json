@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell \"Get-ChildItem -Recurse | Where-Object {$_PSIsContainer} | ForEach-Object {Write-Host $_FullName; Get-ChildItem $_FullName | Where-Object {!$_PSIsContainer} | ForEach-Object {''  '' + $_Name}}\")",
+      "Bash(npm run build)",
+      "Bash(del validate-implementation.js validate-ts-syntax.js)",
+      "Bash(npm install autoprefixer postcss tailwindcss)",
+      "Bash(npx tailwindcss init -p)"
+    ]
+  }
+}
