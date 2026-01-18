@@ -1,3 +1,4 @@
+/* 
 import { NextRequest, NextResponse } from 'next/server';
 import { initRevolutClient } from '@/lib/revolut';
 import { RevolutWebhookEvent } from '@/types/payment';
@@ -160,3 +161,4 @@ export async function GET() {
   // This is typically done during webhook endpoint setup
   return NextResponse.json({ message: 'Webhook endpoint is active' });
 }
+*/

@@ -35,12 +35,6 @@ export default function SuccessPage() {
           >
             Return Home
           </a>
-          <a
-            href="/"
-            className="py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium rounded-md transition duration-200 ease-in-out text-center inline-block"
-          >
-            Make Another Payment
-          </a>
         </div>
       </div>
     </div>
